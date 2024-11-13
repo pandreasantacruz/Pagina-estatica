@@ -1,0 +1,56 @@
+/* Reset.css básico */
+
+/* Elimina márgenes, paddings y bordes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que los elementos ocupen el 100% del ancho disponible */
+html, body {
+    height: 100%;
+    font-size: 100%;
+}
+
+/* Elimina las decoraciones de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegura que las listas no tengan estilos ni márgenes */
+ul, ol {
+    list-style: none;
+}
+
+/* Resetea las imágenes y otros elementos multimedia para ser responsivos */
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Asegura que los formularios tengan estilos predecibles */
+input, button, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+/* Forzar un estilo uniforme para los botones */
+button {
+    background: none;
+    cursor: pointer;
+}
+
+/* Resetea los encabezados para tener un tamaño de fuente predecible */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+/* Establece el diseño predeterminado de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;}

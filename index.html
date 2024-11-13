@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Proyecto M1</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto M1 </title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Proyecto M1</h1>
+      <h2>Bienvenidos a esta pagina web</h2>
+    </header>
+    <main class="main">
+      <!-- Seccion 1 -->
+      <section class="sobre-mi">
+        <h2>Sobre mi:</h2>
+        <p>
+          Hola! Mi nombre es Paula Santracruz soy Colombiana y de profesion
+          Ingeniera ambiental. Estoy muy feliz de comenzar este nuevo camino en
+          tecnologia, se que va a ser muy retador pero estoy segura que sera muy
+          gratificante.
+        </p>
+      </section>
+      <!-- Seccion 2 -->
+      <section class="mis-tecnologias">
+        <h2>Mis Tecnologias favoritas:</h2>
+        <div class="mis-tecnologias-conteiner">
+          <div class="tecnologia-card">
+            <img src="./styles/Assets/html5.png" alt="Logo HTML5" />
+            <p>Html</p>
+          </div>
+
+          <div class="tecnologia-card">
+            <img src="./styles/Assets/CSS.png" alt="Logo CSS" />
+            <p>Css</p>
+          </div>
+
+          <div class="tecnologia-card">
+            <img src="./styles/Assets/JavaScript.png" alt="Logo JavaScript" />
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </section>
+      <!-- Seccion 3 -->
+
+      <section class="actividades-favoritas">
+        <h2>Mis Actividades favoritas:</h2>
+        <form class="actividades-form">
+          <label>Titulo</label>
+          <input type="text" placeholder="Titulo" />
+
+          <label>Descripcion</label>
+          <textarea placeholder="Descripcion Actividad"></textarea>
+
+          <label>URL Imagen</label>
+          <input type="text" placeholder="http//" />
+
+          <button class="button">Registar Actividad</button>
+        </form>
+        <div class="contenedor">Contenedor</div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/paula-andrea-santacruz-8352b0192/" target="_blank">Contactame</a>
+
+
+    </footer>
+  </body>
 </html>

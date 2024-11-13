@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.header{
+
+    background-color: #ffd60a ;
+    text-align: center;
+    padding: 20px 0;
+}
+.header > h1{
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.header > h2{
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main {
+    padding: 20px 10%;
+}
+.sobre-mi > h2{
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.sobre-mi > p{
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.mis-tecnologias{
+    margin-top: 10px;
+    text-align: justify;
+}
+.mis-tecnologias > h2 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.mis-tecnologias-conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tecnologia-card{
+    width: 350 px;  
+    text-align: center
+}
+.tecnologia-card > img {
+    width: 250px;   /* Fijar el ancho de las imágenes */
+    height: 250px;  /* Fijar el alto de las imágenes */
+    object-fit: contain;  /* Ajustar la imagen dentro de su contenedor sin distorsión */
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.tecnologia-card > img:hover {
+    background-color: #fcf6bd;
+    border-radius: 10px;
+}
+.tecnologia-card > p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.actividades-favoritas{
+    display: flex;
+    flex-direction: column;
+}
+.actividades-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.actividades-favoritas > h2 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    justify-content: left;
+}
+.actividades-form > label, input, textarea {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+.actividades-form > input, textarea {
+    border: 2px solid #003566;  /* Borde de 2px, sólido y de color */
+    padding: 10px; 
+}
+.actividades-form > button{
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    background-color: #003566;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.actividades-form > button:hover {
+    background-color: #000814
+}
+.contenedor{
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    color: #adb5bd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+.footer {
+    padding: 20px 10%;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    background-color: #003566;
+    color: #adb5bd;
+
+}
