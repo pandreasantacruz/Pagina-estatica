@@ -14,5 +14,9 @@
     "jasmine": "^5.1.0",
     "live-server": "^1.2.2",
     "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "jasmine-browser-runner": "^2.5.0",
+    "jasmine-core": "^5.5.0"
   }
 }
